@@ -1,0 +1,105 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up the background color and font */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column; /* Center content vertically */
+}
+
+/* Container for the entire page */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Individual status cards */
+.status-card {
+    background-color: #f9fafb;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Status text formatting */
+.status {
+    font-size: 20px;
+    color: #d9534f; /* Red for Offline */
+    font-weight: bold;
+}
+
+.status.online {
+    color: #5bc0de; /* Blue for Online */
+}
+
+/* Player count styling */
+#player-count {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Last updated text styling */
+#last-updated {
+    font-size: 16px;
+    color: #777;
+    font-style: italic;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Links section styling */
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #0056b3;
+}
